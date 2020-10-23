@@ -1,5 +1,6 @@
 boil the kettle
 find a cup
 put tea bag in cup
+pour water into cup
 add milk
 drink tea
