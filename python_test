@@ -1,1 +1,23 @@
+# Input variables
+income = 100
+expenditure = 80
 
+# Print out a message depending on whether we have made 
+# a profit / break-even / loss
+
+if income > expenditure:
+    # Profit
+    message_profit = "Looks like you have made a profit!"
+    print(message_profit)
+
+elif income == expenditure:
+    # Break-even
+    message_even = "Looks like you exactly broken even."
+    print(message_even)
+
+else:
+    # Neither profit nor break-even -> loss
+    message_loss = "Looks like you have made a loss..."
+    print(message_loss)
+
+print("End of comparison.")
